@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 03</title>
+    <link rel="stylesheet" href="Style-03.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Register</h1>
+        <form action="thankyou.html" method="post">
+            <input type="text" id="name" name="name" placeholder="Name"><i class='bx bxs-rename'></i><br>
+            <i class='bx bxs-rename'></i>
+
+            <input type="email" id="email" name="email" placeholder="Email"><br>
+            <input type="text" id="rollNo" name="rollNo" placeholder="Roll No."><br>
+
+            <label><b>Branch:</b></label>
+            <input type="radio" name="branch" value="CSE">
+            <label for="cse">CSE</label>
+            <input type="radio" name="branch" value="ECE">
+            <label for="ece">ECE</label>
+            <input type="radio" name="branch" value="Civil">
+            <label for="Civil">Civil</label>
+            <input type="radio" name="branch" value="IT">
+            <label for="IT">IT</label><br><br> 
+
+            <label><b>Interests:</b></label>
+            <input type="checkbox" id="webdev" name="interests[]" value="Web Dev">
+            <label for="webdev">Web Devlopment</label>
+            <input type="checkbox" id="python" name="interests[]" value="Python">
+            <label for="python">Python</label>
+            <input type="checkbox" id="java" name="interests[]" value="Java">
+            <label for="java">Java</label>
+            <input type="checkbox" id="aiml" name="interests[]" value="AI/ML">
+            <label for="aiml">AI/ML</label>
+            <input type="checkbox" id="blockchain" name="interests[]" value="Blockchain">
+            <label for="blockchain">Blockchain</label><br>
+
+            <label for="message"><b>Message:</b></label><br>
+            <textarea id="message" name="message" rows="4" cols="20"  placeholder="𝙈𝙚𝙨𝙨𝙖𝙜𝙚..."></textarea><br>
+
+            <a href="Thank You.html" class="redirect-button">Submit</a>
+        </form>
+    </div>
+</body>
+</html>
